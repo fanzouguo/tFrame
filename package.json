@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:fanzouguo/tFrame.git",
   "author": "上海深普软件.Co.,Ltd. <leev@smpoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./.dev/build.mjs"
+  }
 }
