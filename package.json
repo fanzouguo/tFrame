@@ -1,0 +1,9 @@
+{
+  "name": "tframe-resource",
+  "version": "1.0.0",
+  "description": "The static resources for tFrame of smpoo",
+  "main": "index.js",
+  "repository": "git@github.com:fanzouguo/tFrame.git",
+  "author": "上海深普软件.Co.,Ltd. <leev@smpoo.com>",
+  "license": "MIT"
+}
