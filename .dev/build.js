@@ -32,8 +32,8 @@ const exec = async () => {
 		await cmd('git add .');
 		const commitMemo = await getAnswer('请输入 git commit 提交备注：');
 		await cmd(`git commit -m "${commitMemo}"`);
-		await cmd('git push -u origin main');
 		await resetVer();
+		await cmd('git push -u origin main');
 		await cmd('npm publish');
 	} catch (err) {
 		console.error(err);
