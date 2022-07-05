@@ -34,7 +34,7 @@ const exec = async () => {
 		await cmd(`git commit -m "${commitMemo}"`);
 		await cmd('git push -u origin main');
 		await resetVer();
-		await cmd('yarn publish');
+		await cmd('npm publish');
 	} catch (err) {
 		console.error(err);
 	}
