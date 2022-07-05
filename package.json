@@ -3,10 +3,11 @@
   "version": "1.0.2",
   "description": "The static resources for tFrame of smpoo",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:fanzouguo/tFrame.git",
   "author": "上海深普软件.Co.,Ltd. <leev@smpoo.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node ./.dev/build.mjs"
+    "build": "node ./.dev/build.js"
   }
 }
